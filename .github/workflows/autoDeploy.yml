@@ -44,7 +44,7 @@ jobs:
         run: sudo yarn build
      
       - name: deployng the app  
-        run: surge ./build http://piaic-bootcamp-babar.surge.sh/ --token $ {{ secrets.SURGE_TOKEN2}}
+        run: surge ./build http://piaic-bootcamp-babar.surge.sh/ --token ${{ secrets.SURGE_TOKEN2}}
           
         
           
