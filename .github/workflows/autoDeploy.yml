@@ -39,7 +39,10 @@ jobs:
       
       - name: installing surge
         run: npm install -g surge
-        
+     
+      - name: Building the app for production
+        run: yarn build
+     
       - name: deployng the app  
         run: surge ./build http://piaic-bootcamp-babar.surge.sh/ --token $ {{ secrets.SURGE_TOKEN2}}
           
