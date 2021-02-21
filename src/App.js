@@ -8,7 +8,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           This is the first react program made by me
+
         </p>
+        <h1>This was added after completion of auto deployment configuration</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
